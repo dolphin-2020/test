@@ -1,0 +1,58 @@
+.subject {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.subject2 {
+  color: #648880;
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.subject3 {
+  color: #648880;
+  font-size: 17px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+ul {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+li {
+  font-weight: 300;
+  list-style: square;
+  margin-bottom: 5px;
+}
+
+.fill {
+  margin-bottom: 5px;
+  color: #648880;
+}
+
+#name,
+#email,
+#text {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  color: grey;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #648880;
+  color: white;
+  border: 1px solid #648880;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}

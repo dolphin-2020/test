@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+  background-color: #293f50;
+}
+
+.navbar {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.logo {
+  margin: 0;
+  font-weight: 100;
+  color: white;
+  font-size: 35px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  margin-top: 13px;
+  font-weight: 400;
+}
+
+.left-nav {
+  border-top: 2px solid #648880;
+  padding-top: 13px;
+  max-width: 122px;
+}
+
+.nav-info {
+  display: none;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  text-align: left;
+  padding: 50px;
+}
+
+header {
+  width: 100%;
+  background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  color: #648880;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.information1 {
+  font-weight: 300;
+  font-size: 19px;
+  color: #648880;
+}
+
+h2 {
+  font-weight: 400;
+  color: gray;
+  text-align: left;
+}
+
+.information2,
+.information3,
+.information4 {
+  font-weight: 300;
+  color: #648880;
+}
+
+footer {
+  background-color: #293f50;
+}
+
+.insidebox {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 30px 30px;
+  background-color: #293f50;
+  color: #648880;
+}
+
+.nav_footer a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-nav {
+    padding-bottom: 15px;
+  }
+
+  .right-nav {
+    align-items: flex-end;
+    padding-bottom: 15px;
+  }
+
+  .nav-info {
+    display: block;
+    right: 11px;
+    position: absolute;
+    top: 32px;
+    color: #648880;
+    font-weight: 300;
+    max-width: 35%;
+    width: 900px;
+    text-align: right;
+  }
+
+  .right-nav a {
+    margin: 0 12px;
+  }
+
+  .information1 {
+    margin: auto;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .information2,
+  .information3,
+  .information4 {
+    font-size: 13px;
+  }
+
+  .information2 {
+    padding-right: 15px;
+  }
+
+  .information3 {
+    padding-left: 10px;
+  }
+
+  .subject2 {
+    text-align: center;
+  }
+
+  .insidebox {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .left-nav {
+    margin-left: 65px;
+  }
+
+  .right-nav {
+    margin-right: 65px;
+  }
+
+  .nav-info {
+    right: 76px;
+    position: absolute;
+    top: 32px;
+    color: #648880;
+    font-weight: 300;
+    max-width: 50%;
+    width: 900px;
+    text-align: right;
+  }
+
+  .information1 {
+    margin: auto;
+    font-size: 15px;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .container1 {
+    display: block;
+  }
+
+  .container1,
+  .container2 {
+    width: 300px;
+  }
+
+  .information2,
+  .information3,
+  .information4 {
+    font-size: 11px;
+    padding: 0;
+  }
+
+  footer {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .main2 {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .section1 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .navbar {
+    width: 960px;
+    margin: auto;
+  }
+
+  .left-nav {
+    margin-left: 0;
+  }
+
+  .right-nav {
+    margin-right: 0;
+  }
+
+  .nav-info {
+    position: absolute;
+    right: 12px;
+    top: 32px;
+    color: #648880;
+    font-weight: 300;
+    max-width: 50%;
+    width: 900px;
+    text-align: right;
+  }
+
+  h1 {
+    font-weight: 300;
+    width: 960px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .information1 {
+    width: 960px;
+    margin: auto;
+  }
+
+  main {
+    display: block;
+    width: 960px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 17px;
+  }
+
+  .container1 {
+    width: 100%;
+  }
+
+  .container2 {
+    width: 100%;
+  }
+  .information2,
+  .information3,
+  .information4 {
+    font-weight: 300;
+  }
+
+  .main2 {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subject2 {
+    text-align: left;
+  }
+
+  .section1 {
+    width: 550px;
+  }
+
+  .section2 {
+    width: 250px;
+  }
+}
